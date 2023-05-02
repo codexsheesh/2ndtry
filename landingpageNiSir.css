@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+ min-height: 100vh;
+ background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0)),url("https://www.psu.edu.ph/wp-content/uploads/2016/10/urdaneta.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+section.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 85px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 2vw;
+    font-size: inline;
+    color: white;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+ list-style: none;
+ display: inline-block;
+ padding: 0px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 7px 8px;
+    border-radius: 8px;
+}
+nav ul li a:hover{
+    color: darkblue;
+    background-color: white;
+}
+div.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(30vh);
+}
+div.article h2{
+    font-size: 54px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+div.article p{
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 50px;
+    line-height: 2px;
+}
+div.article .btn{
+    background-color: lightyellow;
+    color: darkblue;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+div.article .btn:hover{
+    background-color: darkblue;
+    color: white;
+}
+div.footer{
+    background-color: gray;
+    padding: 30px 0px 0px;
+}
+div.row{
+    display: flex;
+    flex-wrap: flex;
+}
+div.footer-col{
+    width: 25%;
+    padding: 0px 15px;
+}
+div.footer-col#col1{
+width: 50%;
+}
+div.footer-col h3{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+}
+div.footer-col p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+div.footer-col ul{
+    list-style: none;
+}
+div.footer-col ul a{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: white;
+}
+div.copyright{
+    background-color: black;
+    padding: 15px 0px;
+}
+div.copyright p{
+    font-size: small;
+    color: white;
+    text-align: center;
+}
+i{
+    margin-right: 10px;
+}
